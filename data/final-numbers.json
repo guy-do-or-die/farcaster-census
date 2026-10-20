@@ -1,0 +1,410 @@
+{
+ "frozen_at": {
+  "chain_head": "2026-10-20T04:28:01Z (Base block 52,840,567)",
+  "status_files": "2026-10-20T04:39Z (zero-cast tail cut at 23,562 rows)",
+  "fid_count": "2026-10-20T04:41:57Z",
+  "built": "2026-10-20T04:50Z"
+ },
+ "author": "guy-do-or-die (Farcaster fid 321301)",
+ "privacy": "aggregates only; no fids or names of restricted or left accounts in this file",
+ "legend": {
+  "VERIFIED": "two separate methods or passes of mine agree; true on the stated date; no outside re-check",
+  "VERIFIED-ONE-METHOD": "one method or one pass",
+  "ESTIMATE": "estimate with interval"
+ },
+ "frames": {
+  "chain": "Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "statuses": "statuses read 17 Oct 03:00Z - 20 Oct 04:39Z (zero-cast tail cut at 04:39Z; restricted/left/404 re-read 20 Oct 03:23-03:26Z, independent sampler 03:26-03:39Z)",
+  "followers": "hub follower counts from the hub table pulled 18 Oct 13:19-13:41Z (hypersnap-users-all.jsonl)",
+  "opted_out_change": "farcaster.xyz API stopped returning opted_out on 19 Oct between 09:36:36Z and 09:43:07Z (outer 09:36:25-09:43:25Z); post text: 'between 09:36 and 09:44 UTC' (V13)",
+  "announcement": "2026-10-15T17:47Z"
+ },
+ "chain": {
+  "as_of": "Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "head_hash": "0x68ac70884bb04b5a32aed2244b1eb0649268b90f0ad9ba593936e5665dfa610c",
+  "contract": "0x4ecfed276c566aeb49da1f3a888e8dbb7263028d (Base)",
+  "mints": 24596,
+  "burns": 18,
+  "transfers": 0,
+  "distinct_fids_minted": 24589,
+  "fids_minted_twice": 7,
+  "holders_signed": 24578,
+  "last_event": "2026-10-20T04:27:25Z",
+  "method": "union of 7 local Transfer files deduped by (tx, logIndex) = 24,614 events, identical to an independent re-pull 52,600,000-head (1,000-block windows) from two providers (thirdweb, tenderly), 0 differences; time = 2.0 s/block from block 52,606,050 = 2026-10-14T18:10:47Z (matches the head block's own timestamp)",
+  "status": "VERIFIED",
+  "draft_correction": {
+   "draft_03_40Z": {
+    "block": 52839128,
+    "mints": 24519,
+    "holders": 24501
+   },
+   "correct_at_same_block": {
+    "mints": 24549,
+    "burns": 18,
+    "holders": 24531,
+    "time": "2026-10-20T03:40:03Z"
+   },
+   "cause": "files 3 (head 52,818,305) and 4 (from 52,818,852) leave a gap; 30 mints in blocks 52,818,313-52,818,840 were missing from files 1-4 (present in the D pull)"
+  },
+  "earlier_blocks": {
+   "52818299": {
+    "mints": 23789,
+    "burns": 18,
+    "holders": 23771,
+    "time": "2026-10-19T16:05:45Z"
+   },
+   "52823117": {
+    "mints": 24091,
+    "burns": 18,
+    "holders": 24073,
+    "time": "2026-10-19T18:46:21Z"
+   },
+   "52839128": {
+    "mints": 24549,
+    "burns": 18,
+    "holders": 24531,
+    "time": "2026-10-20T03:40:03Z"
+   },
+   "52839970": {
+    "mints": 24571,
+    "burns": 18,
+    "holders": 24553,
+    "time": "2026-10-20T04:08:07Z"
+   }
+  }
+ },
+ "fids": {
+  "fids_issued": 3356242,
+  "as_of": "IdRegistry.idCounter() on OP mainnet, block 158,436,270, read 2026-10-20T04:41:57Z (two RPCs agree)",
+  "hub_numFidRegistrations": 3356088,
+  "hub_as_of": "haatz and snap.farcaster.xyz:3381 /v1/info, 2026-10-20T04:38Z (both)",
+  "signed_pct_of_fids": 0.73,
+  "no_vote": 3331664,
+  "no_vote_pct": 99.3,
+  "status": "VERIFIED",
+  "wording": "99.3% of 3.36M fids (Farcaster IDs) have no vote - never 'accounts'"
+ },
+ "restricted": {
+  "R": 263,
+  "as_of": "latest reads 20 Oct 03:23-03:39Z; VOTE checked at Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "definition": "latest valid read moderated_out (recheck 20 Oct 03:23-03:26Z and independent sampler 03:26-03:39Z applied last), minus fids holding VOTE at the head block",
+  "latest_moderated_out": 263,
+  "of_them_hold_vote": 0,
+  "ever_read_moderated_out": 276,
+  "ever_restricted_now_signed": 10,
+  "ever_restricted_now_pending_not_in_R": 3,
+  "app_followers_lt10": 106,
+  "hub_followers_lt10": 77,
+  "hub_ge_10k": 44,
+  "by_hub_followers": {
+   ">=10k": 44,
+   "5k-10k": 20,
+   "1k-5k": 34,
+   "100-1k": 43,
+   "10-100": 45,
+   "<10": 77
+  },
+  "operator_test_accounts_by_name": 5,
+  "coverage": {
+   "read_all": "fids 1-300,000 and 3,300,001-3,355,300; fids with casts in 300,001-3,300,000 (hub prefilter 18-19 Oct)",
+   "with_casts_error_only_unread": 1125,
+   "zero_cast_unread": 1814442,
+   "zero_cast_read": 42849,
+   "zero_cast_ever_restricted": 0,
+   "fids_gt_3355300_unread": 942
+  },
+  "status": "VERIFIED (two computations over the same reads; one API source; recheck and independent sampler agree on 29 of 29 shared fids)",
+  "wording": "restricted (moderated_out in farcaster.xyz), not 'banned'; read for every account that has cast except 1,125 error-only fids; 942 fids above 3,355,300 not read"
+ },
+ "left_historical": {
+  "ever_read_opted_out": 481,
+  "as_of": "reads 17 Oct 03:00Z - 19 Oct 09:36Z; VOTE checked at Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "now_signed": 57,
+  "without_vote": 424,
+  "read_now": {
+   "pending": 425,
+   "opted_in": 56
+  },
+  "hub_ge_10k_ever": 32,
+  "hub_ge_10k_without_vote": 29,
+  "network_total_estimate": {
+   "range": [
+    490,
+    510
+   ],
+   "status": "ESTIMATE (V13 \u00a74.1: fids with casts above ~1.425M were read only after the change)"
+  },
+  "status": "VERIFIED (V13 BEHAVIOUR re-read + own union of all scan files; on-chain)",
+  "wording": "Left 481 by 19 Oct (read as 'voted to leave' 17-19 Oct); 57 of them have since signed. No current leave count exists: since 19 Oct 09:36-09:44Z the API shows former leavers as 'pending'."
+ },
+ "tiers_hub_followers": {
+  "hub_ge_10000": {
+   "pool": 2739,
+   "known": 2709,
+   "known_pct": 98.9,
+   "signed": 861,
+   "left_by_19_Oct": 29,
+   "restricted": 44,
+   "no_vote": 1775,
+   "http404": 30,
+   "unread_or_error": 0,
+   "pct_of_known": {
+    "signed": 31.78,
+    "left_by_19_Oct": 1.07,
+    "restricted": 1.62,
+    "no_vote": 65.52
+   },
+   "no_vote_includes_opted_in_without_token": 1,
+   "as_of": "signed: Base block 52,840,567 = 2026-10-20T04:28:01Z; restricted: 20 Oct 03:23-03:39Z; left: reads 17 Oct - 19 Oct 09:36Z, without VOTE at the same block; followers: hub table 18 Oct 13:41Z",
+   "status": "VERIFIED"
+  },
+  "hub_ge_5000": {
+   "pool": 8493,
+   "known": 8431,
+   "known_pct": 99.27,
+   "signed": 1951,
+   "left_by_19_Oct": 43,
+   "restricted": 64,
+   "no_vote": 6373,
+   "http404": 62,
+   "unread_or_error": 0,
+   "pct_of_known": {
+    "signed": 23.14,
+    "left_by_19_Oct": 0.51,
+    "restricted": 0.76,
+    "no_vote": 75.59
+   },
+   "no_vote_includes_opted_in_without_token": 1,
+   "as_of": "signed: Base block 52,840,567 = 2026-10-20T04:28:01Z; restricted: 20 Oct 03:23-03:39Z; left: reads 17 Oct - 19 Oct 09:36Z, without VOTE at the same block; followers: hub table 18 Oct 13:41Z",
+   "status": "VERIFIED"
+  },
+  "hub_ge_1000": {
+   "pool": 81168,
+   "known": 80797,
+   "known_pct": 99.54,
+   "signed": 7646,
+   "left_by_19_Oct": 133,
+   "restricted": 98,
+   "no_vote": 72920,
+   "http404": 371,
+   "unread_or_error": 0,
+   "pct_of_known": {
+    "signed": 9.46,
+    "left_by_19_Oct": 0.16,
+    "restricted": 0.12,
+    "no_vote": 90.25
+   },
+   "no_vote_includes_opted_in_without_token": 2,
+   "as_of": "signed: Base block 52,840,567 = 2026-10-20T04:28:01Z; restricted: 20 Oct 03:23-03:39Z; left: reads 17 Oct - 19 Oct 09:36Z, without VOTE at the same block; followers: hub table 18 Oct 13:41Z",
+   "status": "VERIFIED"
+  },
+  "hub_ge_100": {
+   "pool": 336518,
+   "known": 329618,
+   "known_pct": 97.95,
+   "signed": 16567,
+   "left_by_19_Oct": 301,
+   "restricted": 141,
+   "no_vote": 312609,
+   "http404": 1302,
+   "unread_or_error": 5598,
+   "pct_of_known": {
+    "signed": 5.03,
+    "left_by_19_Oct": 0.09,
+    "restricted": 0.04,
+    "no_vote": 94.84
+   },
+   "no_vote_includes_opted_in_without_token": 4,
+   "as_of": "signed: Base block 52,840,567 = 2026-10-20T04:28:01Z; restricted: 20 Oct 03:23-03:39Z; left: reads 17 Oct - 19 Oct 09:36Z, without VOTE at the same block; followers: hub table 18 Oct 13:41Z",
+   "status": "VERIFIED (label 'status known for 97.9%')"
+  }
+ },
+ "http404": {
+  "fids_404_no_valid_read": 5437,
+  "of_them_hub_ge_1k": 374,
+  "of_them_hold_vote": 8,
+  "as_of": "reads to 20 Oct 04:39Z (zero-cast tail frozen at 23,562 rows)",
+  "status": "VERIFIED-ONE-METHOD"
+ },
+ "exact_layer": {
+  "fids_with_valid_status": 1534254,
+  "latest_status": {
+   "opted_in": 19826,
+   "pending": 1514165,
+   "moderated_out": 263
+  },
+  "opted_in_without_token": 19,
+  "holders_without_any_valid_read": 347,
+  "valid_reads_since_change_with_opted_out": {
+   "valid_reads": 417518,
+   "opted_out": 0,
+   "as_of": "19 Oct 09:36:36Z - 20 Oct 04:39Z (stage 1 rest 53,406; stage 2 337,698; retry 250; zero-cast 23,407; recheck 757; sampler 2,000)"
+  },
+  "as_of": "20 Oct 04:39Z"
+ },
+ "non_voters": {
+  "no_vote_fids": 3331664,
+  "as_of": "fids at OP block 158,436,270 (04:41:57Z) minus holders at Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "base_app_only": {
+   "point": 1647091,
+   "ci95": [
+    1593579,
+    1700603
+   ],
+   "pct_of_all_fids": 49.1,
+   "pct_of_no_vote": 49.4,
+   "as_of": "C sample read 19 Oct (V12 \u00a75, c_results.json 19 Oct 19:27Z); structural, not re-run",
+   "voted": 0,
+   "status": "VERIFIED (V11 + C, two methods) / interval = ESTIMATE",
+   "wording": "about half of all fids are Base App accounts that never had a farcaster.xyz key; none of them voted. Do not write 'could not vote'."
+  },
+  "bulk_registration_2023": {
+   "fids": 163299,
+   "pct_of_all_fids": 4.9,
+   "as_of": "V9 + D (19 Oct)",
+   "status": "VERIFIED",
+   "wording": "163,299 (~163k) fids from one operator's keyless registration of 13 Oct 2023 (fid 24,277 moved out in 2023; not '163,300')"
+  },
+  "others": {
+   "point": 1521274,
+   "range": [
+    1467762,
+    1574786
+   ],
+   "pct_of_all_fids": [
+    45.3,
+    43.7,
+    46.9
+   ],
+   "status": "ESTIMATE (arithmetic; inherits the Base App interval)",
+   "subsplit_estimate": {
+    "non_signing_fids_gt_300k_with_farcaster_xyz_key": [
+     1095275,
+     1043737,
+     1146813
+    ],
+    "non_signing_fids_le_300k_outside_bulk_registration_exact": 131001,
+    "fids_gt_300k_neither_base_only_nor_farcaster_xyz_key": 295018,
+    "note": "C frame ends at fid 3,355,706; ~500-fid frame mismatch absorbed in the last bucket"
+   }
+  }
+ },
+ "turnout_farcaster_xyz_key_gt_300k": {
+  "pct": 1.69,
+  "ci": [
+   1.62,
+   1.77
+  ],
+  "numerator_holders": 18858,
+  "denominator": {
+   "point": 1114133,
+   "ci95": [
+    1062595,
+    1165671
+   ],
+   "as_of": "C, 19 Oct"
+  },
+  "as_of": "numerator at Base block 52,840,567 = 2026-10-20T04:28:01Z; denominator C 19 Oct",
+  "previous": "1.63 % [1.56-1.71] (18,216 minted fids / 1,114,133) at Base block 52,818,299 = 19 Oct 16:05:45Z",
+  "status": "ESTIMATE",
+  "assumption": "every minter holds a farcaster.xyz key (census: 1,841 of 1,841 minters >=1.5M; sample 400 of 400 in 300k-1.5M)",
+  "wording": "of ~1.1M fids above 300k with a farcaster.xyz key, ~1.7% have signed (20 Oct 04:28Z). Only above fid 300k."
+ },
+ "new_accounts": {
+  "holders_registered_after_announcement": 675,
+  "holders": 24578,
+  "pct": 2.7,
+  "reg_time_from_hub": 647,
+  "fid_beyond_hub_tables": 28,
+  "first_fid_after_announcement": 3354634,
+  "by_mint_order": {
+   "first_17817_mints": [
+    173,
+    17817,
+    0.97
+   ],
+   "after_17817": [
+    504,
+    6779,
+    7.43
+   ],
+   "mint_17817_time": "2026-10-17T15:38:13Z",
+   "unit": "mint events, not holders: 173 + 504 = 677 new-account mints of 24,596; the headline 675 counts holders of 24,578"
+  },
+  "as_of": "Base block 52,840,567 = 2026-10-20T04:28:01Z; registration times from hub tables 18 Oct 13:41Z and 19 Oct 16:15Z (fids above 3,355,559 counted as new)",
+  "status": "VERIFIED (method reproduces D: 657 of 24,091 and 484 of 6,274 at block 52,823,117)"
+ },
+ "registrant_batch": {
+  "registrant": "one EOA 0x6BBd...1633 (V10/V12 D)",
+  "fids_registered_known": 758,
+  "as_of_list": "D, OP to block 158,418,397 (19 Oct ~18:50Z)",
+  "hold_vote": 343,
+  "hold_vote_as_of": "Base block 52,840,567 = 2026-10-20T04:28:01Z",
+  "hold_vote_19_Oct_18_46Z": 341,
+  "share_of_holders_pct": 1.4,
+  "share_of_new_account_holders_pct": 50.8,
+  "pattern_named_in_batch": 326,
+  "holders_above_list_max_unattributed": 17,
+  "status": "VERIFIED-ONE-METHOD (registrant list from one pass; holders recomputed); a floor: the EOA kept registering",
+  "wording": "343 of the votes from accounts created after the announcement come from one registrant's batch (758 fids); farm or test harness cannot be told from outside"
+ },
+ "vote_share": {
+  "signed_over_signed_plus_left_without_vote_pct": 98.3,
+  "as_of": "Base block 52,840,567 = 2026-10-20T04:28:01Z; left = 424 read by 19 Oct (floor)",
+  "status": "ESTIMATE",
+  "wording": "'94.4%' is a share of votes (I get ~98%), not of accounts"
+ },
+ "disclosure": "guy-do-or-die (Farcaster fid 321301). I voted stay 16 Oct; Network School accepted me 17 Oct, I haven't booked yet; I'm in the Hypersnap fork's Telegram. Counted from public data (farcaster.xyz client API without login, public hub nodes, Base and OP chains). AI-assisted analysis. No per-account lists.",
+ "credits": {
+  "base_app_observation": "Suji (Firefly founder, fid 966), cast 17 Oct 16:03Z: fids 1.5M-3M likely Base App-only users",
+  "status_endpoint_shown_publicly_earlier": [
+   "Allthing (0xael.eth, docs/VOTE.md, from 18 Oct 01:59Z)",
+   "duckfacts.eth (19 Oct 12:17Z)"
+  ]
+ },
+ "do_not_claim": [
+  "banned (except quoting)",
+  "3.36M accounts (say fids)",
+  "any current leave count; Left only as '481 by 19 Oct'",
+  "NS reset/deleted/hid leave votes; 'silently'",
+  "~10:12 UTC",
+  "could not vote (Base App)",
+  "163,300",
+  "we were the first",
+  "names of restricted accounts or Telegram members"
+ ],
+ "not_refreshed_carry_with_date": [
+  {
+   "figure": "restricted posters after 15 Oct: 27 of 194 (V8 set, B rerun 19 Oct); of 255 read restricted 34 cast, of 247 without late mint 29 (B, 19 Oct ~22Z)",
+   "status": "VERIFIED (B) on its date; not recomputed on the final 263"
+  },
+  {
+   "figure": "17 cast between two restricted readings (V8 skeptic 18 Oct; B 16-17)",
+   "status": "VERIFIED"
+  },
+  {
+   "figure": "never with the NS client's key: all 52 casts of restricted fids with app fid 9152 fall inside windows when the fid held VOTE (B, 19 Oct)",
+   "status": "VERIFIED"
+  },
+  {
+   "figure": "81% of 194 restricted cast within 60 days before 15 Oct; 95% of 300 sampled non-voters with 100+ followers idle 60+ days (V8, 18 Oct)",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "figure": "57% [53.5-60.4] of 800 sampled signers idle since before July; up to 1/3 mostly template casts (V7, sampled 17 Oct)",
+   "status": "VERIFIED-ONE-METHOD / ESTIMATE"
+  },
+  {
+   "figure": "since 15 Oct ~17:00Z farcaster.xyz omits new casts of non-signers in every case checked; 46 of 46 active non-signers checked (V10, 19 Oct)",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "figure": "hub followers ~2.9x the app's (median 2.912, n~14.6k)",
+   "status": "VERIFIED"
+  },
+  {
+   "figure": "validators: 6 seen, 4 labelled Merkle/Neynar; v18 swaps two ~22 Oct for two with no named operator (18-19 Oct)",
+   "status": "VERIFIED / VERIFIED-ONE-METHOD"
+  }
+ ]
+}

@@ -1,0 +1,673 @@
+{
+ "source": "VOTE Transfer events on Base, deduplicated by (tx, logIndex); same events as final-numbers.json chain",
+ "as_of": "2026-10-20T04:28:01Z (Base block 52,840,567)",
+ "status": "VERIFIED (same event set as the signed count)",
+ "checkpoints": {
+  "holders_at_announcement": 25,
+  "holders_24h_after": 10566,
+  "holders_48h_after": 18136,
+  "share_48h_after_pct": 73.8,
+  "holders_at_balaji_94_4_cast": 13287,
+  "signed_last_24h_before_freeze": 2932,
+  "holders_at_freeze": 24578,
+  "peak_hour": {
+   "hour_start": "2026-10-16T15:00:00Z",
+   "mints": 1976
+  },
+  "longest_pause_without_mints_after_announcement": {
+   "from": "2026-10-16T08:59:13Z",
+   "to": "2026-10-16T12:08:11Z",
+   "minutes": 189
+  }
+ },
+ "hourly": [
+  {
+   "hour_start": "2026-10-15T17:00:00Z",
+   "mints": 141,
+   "burns": 0,
+   "holders_at_end": 146
+  },
+  {
+   "hour_start": "2026-10-15T18:00:00Z",
+   "mints": 426,
+   "burns": 0,
+   "holders_at_end": 572
+  },
+  {
+   "hour_start": "2026-10-15T19:00:00Z",
+   "mints": 411,
+   "burns": 2,
+   "holders_at_end": 981
+  },
+  {
+   "hour_start": "2026-10-15T20:00:00Z",
+   "mints": 379,
+   "burns": 1,
+   "holders_at_end": 1359
+  },
+  {
+   "hour_start": "2026-10-15T21:00:00Z",
+   "mints": 234,
+   "burns": 0,
+   "holders_at_end": 1593
+  },
+  {
+   "hour_start": "2026-10-15T22:00:00Z",
+   "mints": 207,
+   "burns": 1,
+   "holders_at_end": 1799
+  },
+  {
+   "hour_start": "2026-10-15T23:00:00Z",
+   "mints": 183,
+   "burns": 0,
+   "holders_at_end": 1982
+  },
+  {
+   "hour_start": "2026-10-16T00:00:00Z",
+   "mints": 165,
+   "burns": 0,
+   "holders_at_end": 2147
+  },
+  {
+   "hour_start": "2026-10-16T01:00:00Z",
+   "mints": 214,
+   "burns": 0,
+   "holders_at_end": 2361
+  },
+  {
+   "hour_start": "2026-10-16T02:00:00Z",
+   "mints": 116,
+   "burns": 0,
+   "holders_at_end": 2477
+  },
+  {
+   "hour_start": "2026-10-16T03:00:00Z",
+   "mints": 191,
+   "burns": 0,
+   "holders_at_end": 2668
+  },
+  {
+   "hour_start": "2026-10-16T04:00:00Z",
+   "mints": 241,
+   "burns": 1,
+   "holders_at_end": 2908
+  },
+  {
+   "hour_start": "2026-10-16T05:00:00Z",
+   "mints": 181,
+   "burns": 0,
+   "holders_at_end": 3089
+  },
+  {
+   "hour_start": "2026-10-16T06:00:00Z",
+   "mints": 183,
+   "burns": 0,
+   "holders_at_end": 3272
+  },
+  {
+   "hour_start": "2026-10-16T07:00:00Z",
+   "mints": 344,
+   "burns": 0,
+   "holders_at_end": 3616
+  },
+  {
+   "hour_start": "2026-10-16T08:00:00Z",
+   "mints": 408,
+   "burns": 0,
+   "holders_at_end": 4024
+  },
+  {
+   "hour_start": "2026-10-16T09:00:00Z",
+   "mints": 0,
+   "burns": 0,
+   "holders_at_end": 4024
+  },
+  {
+   "hour_start": "2026-10-16T10:00:00Z",
+   "mints": 0,
+   "burns": 0,
+   "holders_at_end": 4024
+  },
+  {
+   "hour_start": "2026-10-16T11:00:00Z",
+   "mints": 0,
+   "burns": 0,
+   "holders_at_end": 4024
+  },
+  {
+   "hour_start": "2026-10-16T12:00:00Z",
+   "mints": 304,
+   "burns": 0,
+   "holders_at_end": 4328
+  },
+  {
+   "hour_start": "2026-10-16T13:00:00Z",
+   "mints": 949,
+   "burns": 0,
+   "holders_at_end": 5277
+  },
+  {
+   "hour_start": "2026-10-16T14:00:00Z",
+   "mints": 1588,
+   "burns": 0,
+   "holders_at_end": 6865
+  },
+  {
+   "hour_start": "2026-10-16T15:00:00Z",
+   "mints": 1976,
+   "burns": 0,
+   "holders_at_end": 8841
+  },
+  {
+   "hour_start": "2026-10-16T16:00:00Z",
+   "mints": 1068,
+   "burns": 0,
+   "holders_at_end": 9909
+  },
+  {
+   "hour_start": "2026-10-16T17:00:00Z",
+   "mints": 836,
+   "burns": 0,
+   "holders_at_end": 10745
+  },
+  {
+   "hour_start": "2026-10-16T18:00:00Z",
+   "mints": 533,
+   "burns": 0,
+   "holders_at_end": 11278
+  },
+  {
+   "hour_start": "2026-10-16T19:00:00Z",
+   "mints": 385,
+   "burns": 0,
+   "holders_at_end": 11663
+  },
+  {
+   "hour_start": "2026-10-16T20:00:00Z",
+   "mints": 374,
+   "burns": 0,
+   "holders_at_end": 12037
+  },
+  {
+   "hour_start": "2026-10-16T21:00:00Z",
+   "mints": 253,
+   "burns": 2,
+   "holders_at_end": 12288
+  },
+  {
+   "hour_start": "2026-10-16T22:00:00Z",
+   "mints": 236,
+   "burns": 0,
+   "holders_at_end": 12524
+  },
+  {
+   "hour_start": "2026-10-16T23:00:00Z",
+   "mints": 215,
+   "burns": 0,
+   "holders_at_end": 12739
+  },
+  {
+   "hour_start": "2026-10-17T00:00:00Z",
+   "mints": 226,
+   "burns": 0,
+   "holders_at_end": 12965
+  },
+  {
+   "hour_start": "2026-10-17T01:00:00Z",
+   "mints": 322,
+   "burns": 0,
+   "holders_at_end": 13287
+  },
+  {
+   "hour_start": "2026-10-17T02:00:00Z",
+   "mints": 371,
+   "burns": 1,
+   "holders_at_end": 13657
+  },
+  {
+   "hour_start": "2026-10-17T03:00:00Z",
+   "mints": 381,
+   "burns": 0,
+   "holders_at_end": 14038
+  },
+  {
+   "hour_start": "2026-10-17T04:00:00Z",
+   "mints": 393,
+   "burns": 0,
+   "holders_at_end": 14431
+  },
+  {
+   "hour_start": "2026-10-17T05:00:00Z",
+   "mints": 403,
+   "burns": 0,
+   "holders_at_end": 14834
+  },
+  {
+   "hour_start": "2026-10-17T06:00:00Z",
+   "mints": 438,
+   "burns": 0,
+   "holders_at_end": 15272
+  },
+  {
+   "hour_start": "2026-10-17T07:00:00Z",
+   "mints": 451,
+   "burns": 0,
+   "holders_at_end": 15723
+  },
+  {
+   "hour_start": "2026-10-17T08:00:00Z",
+   "mints": 302,
+   "burns": 0,
+   "holders_at_end": 16025
+  },
+  {
+   "hour_start": "2026-10-17T09:00:00Z",
+   "mints": 308,
+   "burns": 0,
+   "holders_at_end": 16333
+  },
+  {
+   "hour_start": "2026-10-17T10:00:00Z",
+   "mints": 286,
+   "burns": 0,
+   "holders_at_end": 16619
+  },
+  {
+   "hour_start": "2026-10-17T11:00:00Z",
+   "mints": 312,
+   "burns": 0,
+   "holders_at_end": 16931
+  },
+  {
+   "hour_start": "2026-10-17T12:00:00Z",
+   "mints": 265,
+   "burns": 0,
+   "holders_at_end": 17196
+  },
+  {
+   "hour_start": "2026-10-17T13:00:00Z",
+   "mints": 236,
+   "burns": 0,
+   "holders_at_end": 17432
+  },
+  {
+   "hour_start": "2026-10-17T14:00:00Z",
+   "mints": 240,
+   "burns": 0,
+   "holders_at_end": 17672
+  },
+  {
+   "hour_start": "2026-10-17T15:00:00Z",
+   "mints": 180,
+   "burns": 2,
+   "holders_at_end": 17850
+  },
+  {
+   "hour_start": "2026-10-17T16:00:00Z",
+   "mints": 174,
+   "burns": 0,
+   "holders_at_end": 18024
+  },
+  {
+   "hour_start": "2026-10-17T17:00:00Z",
+   "mints": 138,
+   "burns": 0,
+   "holders_at_end": 18162
+  },
+  {
+   "hour_start": "2026-10-17T18:00:00Z",
+   "mints": 110,
+   "burns": 0,
+   "holders_at_end": 18272
+  },
+  {
+   "hour_start": "2026-10-17T19:00:00Z",
+   "mints": 76,
+   "burns": 0,
+   "holders_at_end": 18348
+  },
+  {
+   "hour_start": "2026-10-17T20:00:00Z",
+   "mints": 82,
+   "burns": 0,
+   "holders_at_end": 18430
+  },
+  {
+   "hour_start": "2026-10-17T21:00:00Z",
+   "mints": 61,
+   "burns": 0,
+   "holders_at_end": 18491
+  },
+  {
+   "hour_start": "2026-10-17T22:00:00Z",
+   "mints": 60,
+   "burns": 0,
+   "holders_at_end": 18551
+  },
+  {
+   "hour_start": "2026-10-17T23:00:00Z",
+   "mints": 64,
+   "burns": 0,
+   "holders_at_end": 18615
+  },
+  {
+   "hour_start": "2026-10-18T00:00:00Z",
+   "mints": 50,
+   "burns": 0,
+   "holders_at_end": 18665
+  },
+  {
+   "hour_start": "2026-10-18T01:00:00Z",
+   "mints": 79,
+   "burns": 0,
+   "holders_at_end": 18744
+  },
+  {
+   "hour_start": "2026-10-18T02:00:00Z",
+   "mints": 58,
+   "burns": 0,
+   "holders_at_end": 18802
+  },
+  {
+   "hour_start": "2026-10-18T03:00:00Z",
+   "mints": 103,
+   "burns": 0,
+   "holders_at_end": 18905
+  },
+  {
+   "hour_start": "2026-10-18T04:00:00Z",
+   "mints": 111,
+   "burns": 0,
+   "holders_at_end": 19016
+  },
+  {
+   "hour_start": "2026-10-18T05:00:00Z",
+   "mints": 159,
+   "burns": 0,
+   "holders_at_end": 19175
+  },
+  {
+   "hour_start": "2026-10-18T06:00:00Z",
+   "mints": 200,
+   "burns": 0,
+   "holders_at_end": 19375
+  },
+  {
+   "hour_start": "2026-10-18T07:00:00Z",
+   "mints": 113,
+   "burns": 0,
+   "holders_at_end": 19488
+  },
+  {
+   "hour_start": "2026-10-18T08:00:00Z",
+   "mints": 100,
+   "burns": 0,
+   "holders_at_end": 19588
+  },
+  {
+   "hour_start": "2026-10-18T09:00:00Z",
+   "mints": 139,
+   "burns": 0,
+   "holders_at_end": 19727
+  },
+  {
+   "hour_start": "2026-10-18T10:00:00Z",
+   "mints": 105,
+   "burns": 1,
+   "holders_at_end": 19831
+  },
+  {
+   "hour_start": "2026-10-18T11:00:00Z",
+   "mints": 80,
+   "burns": 0,
+   "holders_at_end": 19911
+  },
+  {
+   "hour_start": "2026-10-18T12:00:00Z",
+   "mints": 106,
+   "burns": 0,
+   "holders_at_end": 20017
+  },
+  {
+   "hour_start": "2026-10-18T13:00:00Z",
+   "mints": 119,
+   "burns": 1,
+   "holders_at_end": 20135
+  },
+  {
+   "hour_start": "2026-10-18T14:00:00Z",
+   "mints": 100,
+   "burns": 0,
+   "holders_at_end": 20235
+  },
+  {
+   "hour_start": "2026-10-18T15:00:00Z",
+   "mints": 110,
+   "burns": 0,
+   "holders_at_end": 20345
+  },
+  {
+   "hour_start": "2026-10-18T16:00:00Z",
+   "mints": 94,
+   "burns": 0,
+   "holders_at_end": 20439
+  },
+  {
+   "hour_start": "2026-10-18T17:00:00Z",
+   "mints": 82,
+   "burns": 0,
+   "holders_at_end": 20521
+  },
+  {
+   "hour_start": "2026-10-18T18:00:00Z",
+   "mints": 101,
+   "burns": 0,
+   "holders_at_end": 20622
+  },
+  {
+   "hour_start": "2026-10-18T19:00:00Z",
+   "mints": 107,
+   "burns": 0,
+   "holders_at_end": 20729
+  },
+  {
+   "hour_start": "2026-10-18T20:00:00Z",
+   "mints": 105,
+   "burns": 0,
+   "holders_at_end": 20834
+  },
+  {
+   "hour_start": "2026-10-18T21:00:00Z",
+   "mints": 76,
+   "burns": 0,
+   "holders_at_end": 20910
+  },
+  {
+   "hour_start": "2026-10-18T22:00:00Z",
+   "mints": 80,
+   "burns": 0,
+   "holders_at_end": 20990
+  },
+  {
+   "hour_start": "2026-10-18T23:00:00Z",
+   "mints": 59,
+   "burns": 0,
+   "holders_at_end": 21049
+  },
+  {
+   "hour_start": "2026-10-19T00:00:00Z",
+   "mints": 62,
+   "burns": 0,
+   "holders_at_end": 21111
+  },
+  {
+   "hour_start": "2026-10-19T01:00:00Z",
+   "mints": 50,
+   "burns": 0,
+   "holders_at_end": 21161
+  },
+  {
+   "hour_start": "2026-10-19T02:00:00Z",
+   "mints": 196,
+   "burns": 0,
+   "holders_at_end": 21357
+  },
+  {
+   "hour_start": "2026-10-19T03:00:00Z",
+   "mints": 195,
+   "burns": 0,
+   "holders_at_end": 21552
+  },
+  {
+   "hour_start": "2026-10-19T04:00:00Z",
+   "mints": 177,
+   "burns": 0,
+   "holders_at_end": 21729
+  },
+  {
+   "hour_start": "2026-10-19T05:00:00Z",
+   "mints": 190,
+   "burns": 0,
+   "holders_at_end": 21919
+  },
+  {
+   "hour_start": "2026-10-19T06:00:00Z",
+   "mints": 248,
+   "burns": 0,
+   "holders_at_end": 22167
+  },
+  {
+   "hour_start": "2026-10-19T07:00:00Z",
+   "mints": 178,
+   "burns": 0,
+   "holders_at_end": 22345
+  },
+  {
+   "hour_start": "2026-10-19T08:00:00Z",
+   "mints": 210,
+   "burns": 0,
+   "holders_at_end": 22555
+  },
+  {
+   "hour_start": "2026-10-19T09:00:00Z",
+   "mints": 157,
+   "burns": 0,
+   "holders_at_end": 22712
+  },
+  {
+   "hour_start": "2026-10-19T10:00:00Z",
+   "mints": 143,
+   "burns": 0,
+   "holders_at_end": 22855
+  },
+  {
+   "hour_start": "2026-10-19T11:00:00Z",
+   "mints": 170,
+   "burns": 0,
+   "holders_at_end": 23025
+  },
+  {
+   "hour_start": "2026-10-19T12:00:00Z",
+   "mints": 170,
+   "burns": 0,
+   "holders_at_end": 23195
+  },
+  {
+   "hour_start": "2026-10-19T13:00:00Z",
+   "mints": 188,
+   "burns": 0,
+   "holders_at_end": 23383
+  },
+  {
+   "hour_start": "2026-10-19T14:00:00Z",
+   "mints": 181,
+   "burns": 0,
+   "holders_at_end": 23564
+  },
+  {
+   "hour_start": "2026-10-19T15:00:00Z",
+   "mints": 184,
+   "burns": 0,
+   "holders_at_end": 23748
+  },
+  {
+   "hour_start": "2026-10-19T16:00:00Z",
+   "mints": 124,
+   "burns": 0,
+   "holders_at_end": 23872
+  },
+  {
+   "hour_start": "2026-10-19T17:00:00Z",
+   "mints": 104,
+   "burns": 0,
+   "holders_at_end": 23976
+  },
+  {
+   "hour_start": "2026-10-19T18:00:00Z",
+   "mints": 119,
+   "burns": 0,
+   "holders_at_end": 24095
+  },
+  {
+   "hour_start": "2026-10-19T19:00:00Z",
+   "mints": 62,
+   "burns": 0,
+   "holders_at_end": 24157
+  },
+  {
+   "hour_start": "2026-10-19T20:00:00Z",
+   "mints": 53,
+   "burns": 0,
+   "holders_at_end": 24210
+  },
+  {
+   "hour_start": "2026-10-19T21:00:00Z",
+   "mints": 35,
+   "burns": 0,
+   "holders_at_end": 24245
+  },
+  {
+   "hour_start": "2026-10-19T22:00:00Z",
+   "mints": 44,
+   "burns": 0,
+   "holders_at_end": 24289
+  },
+  {
+   "hour_start": "2026-10-19T23:00:00Z",
+   "mints": 24,
+   "burns": 0,
+   "holders_at_end": 24313
+  },
+  {
+   "hour_start": "2026-10-20T00:00:00Z",
+   "mints": 43,
+   "burns": 0,
+   "holders_at_end": 24356
+  },
+  {
+   "hour_start": "2026-10-20T01:00:00Z",
+   "mints": 45,
+   "burns": 0,
+   "holders_at_end": 24401
+  },
+  {
+   "hour_start": "2026-10-20T02:00:00Z",
+   "mints": 42,
+   "burns": 0,
+   "holders_at_end": 24443
+  },
+  {
+   "hour_start": "2026-10-20T03:00:00Z",
+   "mints": 102,
+   "burns": 0,
+   "holders_at_end": 24545
+  },
+  {
+   "hour_start": "2026-10-20T04:00:00Z",
+   "mints": 33,
+   "burns": 0,
+   "holders_at_end": 24578
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "about": "Figures that appear on the census page or in the thread but are not built by build.py. Each carries its date, method and status; per-account data is not included.",
+ "author": "guy-do-or-die (fid 321301)",
+ "legend": {
+  "VERIFIED": "two separate methods or passes of mine agree; no outside re-check",
+  "VERIFIED-ONE-METHOD": "one method or one pass",
+  "ESTIMATE": "estimate, with interval where available"
+ },
+ "figures": [
+  {
+   "section": "signing",
+   "figure": "holders 24 h / 48 h after the announcement; 74% of today's signers within 48 h; 13,287 holders at Balaji's 94.4% cast; 2,932 signed in the last 24 h; peak hour 1,976; no mints 16 Oct 08:59:13-12:08:11Z",
+   "value": "see data/vote-hourly.json checkpoints",
+   "as_of": "Base block 52,840,567 = 2026-10-20T04:28:01Z",
+   "method": "scripts/hourly.py over the frozen Transfer events",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "signing",
+   "figure": "Balaji's cast",
+   "value": "\"With 10,000+ votes counted, we're at 94.4% support\"",
+   "as_of": "2026-10-17T02:00:03Z (hub timestamp)",
+   "source": "https://farcaster.xyz/balajis.eth/0xf454b8d3",
+   "status": "his figure, not reproduced"
+  },
+  {
+   "section": "keys",
+   "figure": "Base-App-first signers above fid 1.5M who had added a farcaster.xyz key",
+   "value": "12 of 12, in a census of all 1,841 VOTE holders with fid >= 1.5M",
+   "as_of": "19 Oct",
+   "method": "signer add/remove events with requestFid decoded on snap.farcaster.xyz:3381",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "hidden",
+   "figure": "@quazia cast",
+   "value": "\"Search and feeds only show users who have opted in\"",
+   "as_of": "2026-10-15T20:21:38Z",
+   "source": "https://farcaster.xyz/quazia/0xab8a5e0e",
+   "status": "primary"
+  },
+  {
+   "section": "hidden",
+   "figure": "vote page text for Vote to leave / Not now",
+   "value": "\"Your account will become read-only within this client, but nothing is deleted.\"",
+   "as_of": "read 16 and 20 Oct, unchanged",
+   "status": "primary"
+  },
+  {
+   "section": "hidden",
+   "figure": "active non-signers whose new casts farcaster.xyz omits (logged out)",
+   "value": "46 of 46, among 101 hand-picked bots and agents",
+   "as_of": "19 Oct",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "hidden",
+   "figure": "spot check: 15 former leavers now pending",
+   "value": "169 casts on the hub since 15 Oct 17:00Z, 0 served by farcaster.xyz logged out; the newest cast it serves is from 15 Oct 16:07Z",
+   "as_of": "20 Oct",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "hidden",
+   "figure": "posters whose messages carry the same hashes on snap.farcaster.xyz and haatz.quilibrium.com",
+   "value": "101 posters checked: 100 identical message sets, 1 differed only by a cast made between the two fetches (the page and image 2 of the thread first said 103 of 103)",
+   "as_of": "19 Oct",
+   "method": "scripts/hypersnap_activity.py",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "hidden",
+   "figure": "restricted fids still posting",
+   "value": "27 of 194 restricted on 18 Oct posted after the announcement, at least 16 of them between two restricted reads; 34 of 255 restricted by 19 Oct ~22Z posted, 29 of them never minted VOTE later; after the announcement 4 restricted fids made 52 casts with the farcaster.xyz key, all inside windows when the fid held VOTE",
+   "as_of": "18-19 Oct, not rerun on the final 263",
+   "method": "scripts/hypersnap_activity.py",
+   "status": "VERIFIED on its date"
+  },
+  {
+   "section": "hidden",
+   "figure": "activity",
+   "value": "81% of the 194 restricted on 18 Oct cast within 60 days before 15 Oct; 95% of 300 sampled non-voters with 100+ followers idle 60+ days; at least 57% of 800 sampled signers silent since before July (57.0% if the 41 fids with no pre-vote cast among their 10 newest count as active, 62.1% if not); among fids with 100+ app followers, 14% of 300 sampled signers (41) vs 95% of 300 sampled non-voters had not cast for 60+ days (18 Oct); the 800-signer sample was drawn from the first 17,817 mints",
+   "as_of": "17-18 Oct",
+   "status": "VERIFIED-ONE-METHOD / ESTIMATE"
+  },
+  {
+   "section": "leave",
+   "figure": "leave answers before the change",
+   "value": "299 opted_out in 743,533 valid reads of the 300k-1.55M scan (stage 1), 0.0222 per opted_in answer; 481 across all scans",
+   "as_of": "to 19 Oct 09:36:36Z",
+   "method": "scripts/optin_scan.py",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "leave",
+   "figure": "leave answers expected after the change if nothing had changed",
+   "value": "~25-29, scaled by the opted_in answers the later scans returned (1,137); later reads were mostly of quieter fids",
+   "as_of": "19 Oct 09:43Z - 20 Oct 03:22Z",
+   "status": "ESTIMATE"
+  },
+  {
+   "section": "leave",
+   "figure": "re-reads of known leavers before the change",
+   "value": "60+, none turned pending",
+   "as_of": "17 Oct - 19 Oct 09:36Z",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "leave",
+   "figure": "former leavers seen in the author's own logged-in session",
+   "value": "5 of 5 pending",
+   "as_of": "20 Oct 10:08-10:11Z",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "leave",
+   "figure": "56 opted_in vs 57 holding VOTE",
+   "value": "the 481 were re-read 20 Oct 03:23-03:26Z: 425 pending, 56 opted_in; one of the 425 minted at 04:03Z, before the 04:28 head block",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "leave",
+   "figure": "leavers who signed before the change",
+   "value": "37 of the 57 minted before 19 Oct 09:36:36Z by chain time, 20 after (the thread said 34, an undercount from an earlier split)",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "leave",
+   "figure": "app code",
+   "value": "the farcaster.xyz web bundle and vote page text were saved 16, 19 and 20 Oct; the opt-in endpoints are the same (authorization, mint, confirm, confirm-status, following-stayed, opt-out); none resets or cancels a vote; the change is server-side",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "method",
+   "figure": "who can burn a VOTE token",
+   "value": "revoke() reverts with InvalidAuthorizerSignature when called from the holder, the owner or a random address (eth_call); the one real revoke checked recovers to the operator's authorizer 0x7b3f...0740; 5 function selectors of the unverified contract are unresolved",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "leave",
+   "figure": "no announcement found",
+   "value": "searched team casts, /farcaster, the web and the Hypersnap Telegram",
+   "as_of": "to 19 Oct 15:54Z",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "leave",
+   "figure": "leave button after a stay vote",
+   "value": "none in the app's code (web bundle 16-20 Oct); the author's own Your Vote tab on 17 Oct showed no leave button; the vote page says the vote can be changed later on the Your Vote tab",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "hidden",
+   "figure": "profiles and a returning account",
+   "value": "profiles still load logged out; in the one case checked, the casts came back after the account signed",
+   "as_of": "19 Oct",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "hidden",
+   "figure": "logged-out user search",
+   "value": "still found pending accounts; dropped the 5 restricted test accounts tried",
+   "as_of": "19 Oct",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "hidden",
+   "figure": "@quazia's role",
+   "value": "Farcaster engineering lead (profile, 15 Oct)",
+   "status": "single source"
+  },
+  {
+   "section": "hidden",
+   "figure": "restricted fids carrying the operator's test-account names",
+   "value": "5 of 263 (test-acc-*); three of them minted and burned VOTE on 14-15 Oct before the announcement",
+   "status": "VERIFIED-ONE-METHOD"
+  },
+  {
+   "section": "method",
+   "figure": "request rate",
+   "value": "one scanner at a time, 8 threads, ~7 requests/s in total (observed ~6.5/s); after 10 consecutive 429/5xx it pauses 60 s",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "method",
+   "figure": "fids re-read on 20 Oct 03:23-03:26Z",
+   "value": "1,131 (every restricted, departed and large-404 fid)",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "header",
+   "figure": "restricted and left by hub followers",
+   "value": "restricted 263: 44 (10k+), 20 (5k-10k), 34 (1k-5k), 43 (100-1k), 122 (under 100); left by 19 Oct without VOTE 424: 29, 14, 90, 168, 123",
+   "as_of": "followers 18 Oct; restricted 20 Oct; left read to 19 Oct, VOTE at 20 Oct 04:28Z",
+   "method": "restricted.by_hub_followers in final-numbers.json; leavers from the tier counts (left_by_19_Oct at 10k+, 5k+, 1k+, 100+) and left_historical.without_vote (424); under 100 = 424 - 301",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "method",
+   "figure": "fids that never returned a status",
+   "value": "5,437 had a 404 and no valid read (5,433 only 404s; 4 also had a 429 or a failed request)",
+   "status": "VERIFIED"
+  },
+  {
+   "section": "signing",
+   "figure": "mints before the announcement",
+   "value": "the first VOTE mint was 14 Oct 18:10:47Z; 6 mints and 4 burns on 14 Oct are pre-launch tests, included in 24,596/18",
+   "status": "VERIFIED"
+  }
+ ]
+}

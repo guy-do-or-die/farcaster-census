@@ -1,0 +1,9 @@
+*.jsonl
+__pycache__/
+raw/
+scripts/freeze-out.json
+data/*
+!data/final-numbers.json
+!data/page-figures.json
+!data/vote-hourly.json
+!data/sample-fids.txt
